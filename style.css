@@ -79,6 +79,7 @@ hr {
 
 /* Solution */
 
+/* Setting display as flex and aliging the contents to center*/
 header {
   display: flex;
   align-items: center;
@@ -89,16 +90,18 @@ header {
   display: flex;
 }
 
+/* Top section of the about us section */
 .top-section {
   display: flex;
   flex-direction: row;
 }
 
-
+/* Left side is the image of Pete and right side is Pete's intro*/
 .right {
   text-align: left;
 }
 
+/* Set Portfolio article to flex so background and intro can have different styling */
 #portfolio {
   display: flex;
   flex-direction: column;
