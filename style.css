@@ -76,3 +76,49 @@ footer {
 hr {
   border: 1px solid black;
 }
+
+/* Solution */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main div {
+  display: flex;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.right {
+  text-align: left;
+}
+
+#portfolio {
+  display: flex;
+  flex-direction: column;
+}
+
+/*added a wrapper around portfolio items */
+.portfolio-items {
+  display: flex;
+}
+
+.portfolio-items section {
+  box-sizing: border-box;
+  flex: 1;
+  padding: 0 10px;
+}
+
+.portfolio-items section p {
+  font-size: 14px;
+}
+
+.portfolio-items > section > div {
+  margin-top: 0;
+}
